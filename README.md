@@ -36,6 +36,38 @@ The dataset includes the following classes:
 - NumPy
 - Pandas
 
+## Steps Followed
+
+1. **Data Loading**
+   - Fetch the Fashion MNIST dataset using `fetch_openml` from scikit-learn.
+   - Load the dataset into variables `X` (features) and `y` (labels).
+
+2. **Data Visualization**
+   - Display sample images for each class to understand the dataset.
+   - Use Matplotlib to create visualizations of images.
+
+3. **Data Preprocessing**
+   - Convert labels to integer format.
+   - Normalize pixel values by dividing by 255.
+   - Split the dataset into training and testing sets using `train_test_split`.
+
+4. **Model Building**
+   - Define a neural network architecture using TensorFlow's Keras API.
+   - Create a model with input, hidden, and output layers.
+   - Compile the model with an optimizer and loss function.
+
+5. **Model Training**
+   - Train the neural network model on the training dataset.
+   - Monitor training progress and adjust parameters as needed.
+
+6. **Model Evaluation**
+   - Evaluate the model's performance on the test dataset.
+   - Analyze accuracy and loss metrics.
+
+7. **Prediction Visualization**
+   - Display sample predictions alongside the original images.
+   - Compare model predictions with actual labels.
+
 ## 🚀 About Me
 I'm a Computer Science student specializing in Artificial Intelligence...
 
